@@ -26,7 +26,7 @@ def parse_args():
     parser.add_argument('--groups', action='store_true',
                         help='Creates Okta group from Active Directory Group, defaults to False')
     parser.add_argument('--rules', action='store_true',
-                        help='Perform group rule transitions, defaults to False')
+                        help='Create group rules to help with transitions - with a prefix of "API-AD2O", defaults to False')
     parser.add_argument('--transitiongroups', action='store_true',
                         help='Activates and deactivates group rules to sync group members, defaults to False')
     parser.add_argument('--appmembershipgroup', action='store_true',
