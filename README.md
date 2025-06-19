@@ -1,6 +1,8 @@
 # AD To Okta / AD2Okta
 -----------------------
 
+![](dalle_generated-ad2okta.png)
+
 This script's primary function is to help ease the pain of migrating from/moving off of Active Directory as a Profile Master, to using a more Modern Profile Master such as an Human Resources Management System (HRMS), an External Identity Provider, or even using Okta as a Profile Master in a stand alone configuration. This ties back into a blog post that I wrote [located here](https://andrewdoering.org/blog/2020/08/08/transitioning-to-okta-from-active-directory-new-directory-service-infrastructure/).
 
 Note: There is no support involved in this tool.
